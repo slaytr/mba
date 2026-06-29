@@ -6,7 +6,7 @@ const SESSION_SIZE = 10;
 const state = {
   questions: [],
   progress: loadProgress(),
-  filters: { difficulties: new Set(["Easy", "Medium", "Hard"]), skipBroken: false, prioritizeWrong: true },
+  filters: { difficulties: new Set(["Easy", "Medium", "Hard"]), prioritizeWrong: true },
   session: null,
   currentIdx: 0,
   answered: false,
@@ -72,7 +72,6 @@ function renderHome() {
   for (const chip of document.querySelectorAll("#difficulty-chips .chip")) {
     chip.classList.toggle("active", state.filters.difficulties.has(chip.dataset.diff));
   }
-  document.getElementById("skip-broken").checked = state.filters.skipBroken;
   document.getElementById("prioritize-wrong").checked = state.filters.prioritizeWrong;
 
   // breakdowns
@@ -116,9 +115,6 @@ function renderBreakdown(targetId, groups, order) {
 
 function buildSession({ onlyWrong = false } = {}) {
   let pool = state.questions.filter(q => state.filters.difficulties.has(q.difficulty));
-  if (state.filters.skipBroken) {
-    pool = pool.filter(q => !q.extraction_notes);
-  }
   if (onlyWrong) {
     pool = pool.filter(q => {
       const a = state.progress.attempts[q.number];
@@ -332,9 +328,6 @@ function wire() {
       renderHome();
     });
   }
-  document.getElementById("skip-broken").addEventListener("change", e => {
-    state.filters.skipBroken = e.target.checked;
-  });
   document.getElementById("prioritize-wrong").addEventListener("change", e => {
     state.filters.prioritizeWrong = e.target.checked;
   });
