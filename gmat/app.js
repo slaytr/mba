@@ -72,7 +72,8 @@ function renderHome() {
   for (const chip of document.querySelectorAll("#difficulty-chips .chip")) {
     chip.classList.toggle("active", state.filters.difficulties.has(chip.dataset.diff));
   }
-  document.getElementById("prioritize-wrong").checked = state.filters.prioritizeWrong;
+  const pw = document.getElementById("prioritize-wrong");
+  if (pw) pw.checked = state.filters.prioritizeWrong;
 
   // breakdowns
   renderBreakdown("diff-breakdown", groupBy(state.questions, q => q.difficulty), ["Easy", "Medium", "Hard"]);
@@ -316,6 +317,14 @@ function escapeHtml(s) {
 
 /* ---------- wiring ---------- */
 
+function on(id, event, handler) {
+  // Bind defensively: if a future HTML/JS skew drops an element, log a warning
+  // but keep wiring the rest so the rest of the app remains functional.
+  const el = document.getElementById(id);
+  if (!el) { console.warn(`wire: #${id} not found`); return; }
+  el.addEventListener(event, handler);
+}
+
 function wire() {
   for (const chip of document.querySelectorAll("#difficulty-chips .chip")) {
     chip.addEventListener("click", () => {
@@ -328,29 +337,20 @@ function wire() {
       renderHome();
     });
   }
-  document.getElementById("prioritize-wrong").addEventListener("change", e => {
-    state.filters.prioritizeWrong = e.target.checked;
-  });
-
-  document.getElementById("start-btn").addEventListener("click", () => startSession({}));
-  document.getElementById("review-wrong-btn").addEventListener("click", () => startSession({ onlyWrong: true }));
-
-  document.getElementById("back-btn").addEventListener("click", () => {
+  on("prioritize-wrong", "change", e => { state.filters.prioritizeWrong = e.target.checked; });
+  on("start-btn", "click", () => startSession({}));
+  on("review-wrong-btn", "click", () => startSession({ onlyWrong: true }));
+  on("back-btn", "click", () => {
     if (confirm("Leave this session? Your answers so far are saved.")) {
       show("home");
       renderHome();
     }
   });
-  document.getElementById("next-btn").addEventListener("click", next);
-  document.getElementById("skip-btn").addEventListener("click", skip);
-
-  document.getElementById("done-home-btn").addEventListener("click", () => {
-    show("home");
-    renderHome();
-  });
-  document.getElementById("done-again-btn").addEventListener("click", () => startSession({}));
-
-  document.getElementById("reset-btn").addEventListener("click", () => {
+  on("next-btn", "click", next);
+  on("skip-btn", "click", skip);
+  on("done-home-btn", "click", () => { show("home"); renderHome(); });
+  on("done-again-btn", "click", () => startSession({}));
+  on("reset-btn", "click", () => {
     if (confirm("Reset all progress? This cannot be undone.")) {
       state.progress = defaultProgress();
       saveProgress();
