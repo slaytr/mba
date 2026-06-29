@@ -282,10 +282,41 @@ button.ghost:active { transform: scale(0.98); }
   color: var(--warn);
 }
 
+.q-image-wrap {
+  background: #fff;
+  border-radius: 12px;
+  padding: 8px;
+  border: 1px solid var(--border);
+  overflow: auto;
+  max-width: 100%;
+}
+.q-image-wrap img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
+
 .options {
   display: flex;
   flex-direction: column;
   gap: 10px;
+}
+.options.options-compact {
+  flex-direction: row;
+  justify-content: space-between;
+  gap: 8px;
+}
+.options.options-compact .option {
+  flex: 1;
+  justify-content: center;
+  min-height: 56px;
+  padding: 12px 8px;
+}
+.options.options-compact .option-letter {
+  flex: 0 0 auto;
+  width: 32px;
+  height: 32px;
+  font-size: 15px;
 }
 
 .option {

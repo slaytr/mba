@@ -28,7 +28,7 @@
     "correct_answer": "D",
     "category": "Algebra Second-Degree Equations",
     "explanation": "x+y = 2              given\ny = 2–x         subtract x from both sides\nx2 + (2 – x)2 = 2\nsubstitute y = 2 – x into x2 + y2 = 2\n2x2 – 4x + 4 = 2              expand and combine like terms\n2x2 – 4x + 2 = 0              subtract 2 from both sides\nx2 – 2x + 1 = 0              divide both sides by 2\n(x – 1)(x – 1)\n=0          factor\nx=1             set each factor equal to 0\ny=1             use x = 1 and y = 2 – x\nxy\n=1          multiply 1 and 1\nAlternatively, the value of xy can be found by first squaring both sides of the equation x + y =\n2.\nx+y\n=2      given\n(x + y)2 = 4       square both sides\nx2 + 2xy + y2 = 4         expand and combine like terms\n2 + 2xy\n=4      replace x2 + y2 with 2\n2xy = 2       subtract 2 from both sides\nxy = 1      divide both sides by 2",
-    "extraction_notes": "question stem may be incomplete (formula image)"
+    "image": "images/q-002.png"
   },
   {
     "number": 3,
@@ -194,7 +194,7 @@
     "correct_answer": "E",
     "category": "Arithmetic Operations on Rational Numbers",
     "explanation": "Since the numerator of all of the fractions in the answer choices is 0.03, the least of the\nfractions will be the fraction with the greatest denominator. The greatest denominator is 7.1,\nand so the least of the fractions is                .",
-    "extraction_notes": "some options rendered as images in source PDF"
+    "image": "images/q-013.png"
   },
   {
     "number": 14,
@@ -210,7 +210,7 @@
     "correct_answer": "D",
     "category": "Algebra First-Degree Equations",
     "explanation": "= 8 given\nj + (j + 5) + (2j – 1) + (4j – 2) + (5j – 1) = 40 multiply both sides by 5\n13j + 1\n= 40 combine like terms\n13j = 39 subtract 1 from both sides\nj = 3 divide both sides by 13",
-    "extraction_notes": "some options rendered as images in source PDF"
+    "image": "images/q-014.png"
   },
   {
     "number": 15,
@@ -241,7 +241,7 @@
     "correct_answer": "D",
     "category": "Algebra Applied Problems; Substitution",
     "explanation": "Andrew participated in 1 event and scored 9 points, so his overall score was                          + 1 = 10. Jason\nparticipated in 3 events and scored 5 + 6 + 7 = 18 points, so his overall score was                         + 3 = 9.\nThe ratio of Andrew’s overall score to Jason’s overall score was                        .",
-    "extraction_notes": "some options rendered as images in source PDF"
+    "image": "images/q-016.png"
   },
   {
     "number": 17,
@@ -347,7 +347,7 @@
     "correct_answer": "C",
     "category": "Algebra Fractions",
     "explanation": "If x = −     and y = − , then −2x − y2 = −2                   −            =     −    =     = 1.",
-    "extraction_notes": "some options rendered as images in source PDF"
+    "image": "images/q-023.png"
   },
   {
     "number": 24,
@@ -363,7 +363,7 @@
     "correct_answer": "D",
     "category": "Algebra Simplifying Algebraic Expressions; Substitution",
     "explanation": "(x – 2)(y + 2) = xy + 2x – 2y – 4 multiply binomials\n= xy + 2(x – y) – 4 distributive principle\n= S + 2R – 4            substitution\n= 2R + S – 4            commutative principle",
-    "extraction_notes": "question stem may be incomplete (formula image)"
+    "image": "images/q-024.png"
   },
   {
     "number": 25,
@@ -454,7 +454,7 @@
     "correct_answer": "C",
     "category": "Arithmetic Place Value",
     "explanation": "The task in this question is to find among the available answers the expression that is equal to\n1 − 0.000001 = 0.999999. In the case of answer choice C, the first of the two factors, (1.001),\nis equal to 1 + 0.001. One may therefore observe that (1.001)(0.999) = (1 + 0.001)(0.999) =\n0.999 + 0.000999 = 0.999999. Answer choice C is therefore a correct answer.\nFor answer choice A, (1.01)(0.99) = (1 + 0.01)(0.99) = 0.9999. This answer choice is therefore\nincorrect. For answer choice B, (1.11)(0.99) = (1 + 0.1 + 0.01)(0.99) = 0.99 + 0.099 + 0.0099 =\n1.0989. This answer choice is therefore incorrect. For answer choice D, (1.111)(0.999) =\n0.999 + 0.0999 + 0.00999 + 0.000999 = 1.109889. This answer choice is therefore incorrect.\nFor answer choice E, (1.0101)(0.909) = 0.909 + 0.00909 + 0.0000909 = 0.9181809. This\nanswer choice is therefore incorrect.",
-    "extraction_notes": "question stem may be incomplete (formula image)"
+    "image": "images/q-030.png"
   },
   {
     "number": 31,
@@ -485,7 +485,7 @@
     "correct_answer": "C",
     "category": "Arithmetic Absolute Value",
     "explanation": "|−4|(|−20|−|5|) = 4(20 − 5) = 4 × 15 = 60",
-    "extraction_notes": "question stem may be incomplete (formula image)"
+    "image": "images/q-032.png"
   },
   {
     "number": 33,
@@ -576,7 +576,7 @@
     "correct_answer": "A",
     "category": "Algebra Applied Problems",
     "explanation": "The total to be refunded is equal to the total contributed minus the amount paid, or 3x − y. If\n3x − y is divided into three equal amounts, then each amount will be                                  .",
-    "extraction_notes": "some options rendered as images in source PDF"
+    "image": "images/q-038.png"
   },
   {
     "number": 39,
@@ -682,7 +682,7 @@
     "correct_answer": "C",
     "category": "Arithmetic Series and Sequences",
     "explanation": "The number p is equal to 100 × 101 × 102 × ... × 299 and the number q is equal to 200 × 201\n× 202 × ... × 299. The number             is thus equal to                                             =\nCanceling 200 × 201 × 202 × ...\n× 299 from the numerator and the denominator, we see that                          = 100 × 101 × 102 × ... × 199.\nNote that the multiplication in this expression for                 begins with 100 (the smallest of the\nnumbers being multiplied), whereas the multiplication in n! = 1 × 2 × 3 × ... × n begins with 1.\nStarting with 199! as our numerator, we thus need to find a denominator that will cancel the\nundesired elements of the multiplication (in 199!). This number is 1 × 2 × 3 × ... × 99 = 99!\nThat is,       = 100 × 101 × 102 × ... × 199 =",
-    "extraction_notes": "some options rendered as images in source PDF"
+    "image": "images/q-045.png"
   },
   {
     "number": 46,
@@ -773,7 +773,7 @@
     "correct_answer": "C",
     "category": "Algebra Ratio and Proportion",
     "explanation": "If x represents the amount, in liters, of gasoline poured into the 6-liter container, then 5 − x\nrepresents the amount, in liters, of gasoline poured into the 2-liter container. After the\ngasoline is poured into the containers, the 6-liter container will be filled to                               of its\ncapacity and the 2-liter container will be filled to                                    of its capacity. Because\nthese two percents are equal,\ngiven\n2x = 6(5 − x)        multiply both sides by 12\n2x = 30 − 6x         use distributive property\n8x = 30              add 6x to both sides\ndivide both sides by 8\nTherefore,         liters of gasoline must be poured into the 6-liter container.",
-    "extraction_notes": "some options rendered as images in source PDF"
+    "image": "images/q-051.png"
   },
   {
     "number": 52,
@@ -819,7 +819,7 @@
     "correct_answer": "C",
     "category": "Arithmetic Estimation",
     "explanation": "",
-    "extraction_notes": "explanation body rendered as images in source PDF"
+    "image": "images/q-054.png"
   },
   {
     "number": 55,
@@ -895,7 +895,7 @@
     "correct_answer": "E",
     "category": "Arithmetic Operations with Fractions",
     "explanation": "Each of the 4 equal-sized pieces represents                 of the whole pizza since each slice is      of    of\nthe pizza. Each of the 6 equal-sized pieces represents                     of the whole pizza since each slice is\nof      of the pizza. The fraction of the pizza remaining after a person eats one of the larger\npieces and 2 of the smaller pieces is 1 –                              =1–                =1–         =1–    =\n.",
-    "extraction_notes": "some options rendered as images in source PDF"
+    "image": "images/q-059.png"
   },
   {
     "number": 60,
@@ -911,7 +911,7 @@
     "correct_answer": "B",
     "category": "Arithmetic Operations with Fractions",
     "explanation": "Given that a = 1 +         +      +      , it follows that     a=        +     +      +         and so b = 1 +   +\n+   +        . Then a – b =                             –                                     =–   .",
-    "extraction_notes": "some options rendered as images in source PDF"
+    "image": "images/q-060.png"
   },
   {
     "number": 61,
@@ -1002,7 +1002,7 @@
     "correct_answer": "E",
     "category": "Algebra Formulas",
     "explanation": "First, expand the given expression using the given definition.\nNext, compare the result, 7s + t, with the expanded versions of the answer choices.\n(not correct)\nA\n(not correct)\nB\n(not correct)\nC\n(not correct)\nD\n(correct)\nE",
-    "extraction_notes": "some options rendered as images in source PDF"
+    "image": "images/q-066.png"
   },
   {
     "number": 67,
@@ -1063,7 +1063,7 @@
     "correct_answer": "B",
     "category": "Arithmetic Percents",
     "explanation": "It is given that the price of a certain stock increased by 0.25 of 1 percent on a certain day. This\nis equivalent to an increase of            of         which is                   , and                .",
-    "extraction_notes": "some options rendered as images in source PDF"
+    "image": "images/q-070.png"
   },
   {
     "number": 71,
@@ -1214,7 +1214,7 @@
     "correct_answer": "D",
     "category": "Algebra First-Degree Equations",
     "explanation": "x+1 = 3−x            substitution\nx+x = 3−1           add x − 1 to both sides\n2x = 2           combine like terms\nx=1             divide both sides by 2",
-    "extraction_notes": "question stem may be incomplete (formula image)"
+    "image": "images/q-080.png"
   },
   {
     "number": 81,
@@ -1230,7 +1230,7 @@
     "correct_answer": "A",
     "category": "Algebra Simplifying Algebraic Expressions",
     "explanation": "y − x = kt − kc       given\ny − x = k(t − c)      distributive property",
-    "extraction_notes": "question stem may be incomplete (formula image)"
+    "image": "images/q-081.png"
   },
   {
     "number": 82,
@@ -1276,7 +1276,7 @@
     "correct_answer": "A",
     "category": "Algebra Applied Problems",
     "explanation": "This is a rate problem that can be solved by several applications of the formula\nrate × time = distance.\nLet rA and rB be the rates, respectively and in miles per hour, of Car A and Car B. Then\nomitting units for simplicity, for Car A this formula becomes rA × n = 2, or                          , and for Car\nB this formula becomes rB × m = 3, or                       . Thus, the average of the two rates is\nTherefore, if t is the desired time, in\nhours, that Car C traveled, then the above formula for Car C becomes                                        , or\n.",
-    "extraction_notes": "some options rendered as images in source PDF"
+    "image": "images/q-084.png"
   },
   {
     "number": 85,
@@ -1397,7 +1397,7 @@
     "correct_answer": "E",
     "category": "Algebra Functions; Absolute Value",
     "explanation": "Since the absolute value of any real number is greater than or equal to zero, it follows that |3x\n− 5| ≥ 0. Also, for any real number x we have x2 ≥ 0, and hence −x2 ≤ 0. Subtracting 3 from\nboth sides of the last inequality gives −x2 − 3 ≤ −3. Therefore, the numerator of the\nexpression for y is greater than or equal to zero and the denominator of the expression for y\nis negative. It follows that the value of y cannot be greater than 0. However, the value of y is\nequal to 0 when |3x − 5| = 0, or 3x − 5 = 0, or                     . Therefore, the value of x for which the\nvalue of y is greatest (i.e., when y = 0) is                .",
-    "extraction_notes": "some options rendered as images in source PDF"
+    "image": "images/q-092.png"
   },
   {
     "number": 93,
@@ -1413,7 +1413,7 @@
     "correct_answer": "D",
     "category": "Algebra Equations; Inequalities",
     "explanation": "First, use xy = x + y to solve for y in terms of x.\nxy\n= x+y       given\nxy − y = x            subtract y from both sides\ny(x − 1) = x             factor\ny=              divide both sides by x − 1\nNote that the division by x − 1 requires x ≠ 1, and thus x = 1 needs to be considered\nseparately. However, if x = 1, then xy = x + y becomes y = 1 + y, which is not true for any value\nof y. Using               , it follows that the inequality xy > 0 is equivalent to                     . Since x2 ≥\n0 for each value of x, the quotient                  can only be positive when x ≠ 0 and x − 1 is positive,\nor when x > 1.\nAlternatively, the correct answer can be found by eliminating the incorrect answers, which can\nbe accomplished by considering the endpoints of the intervals given in the answer choices.\nCase 1:\nIf x = −1, then xy = x + y becomes −y = −1 + y, or                  . However, in this case\nis negative, and thus xy > 0 is not true. Therefore, the answer\ncannot be A or E.\nCase 2:         If x = 0, then xy = 0, and thus xy > 0 is not true. Therefore, the answer cannot be B\nor E.\nCase 3:         If x = 1, then xy = x + y becomes y = 1 + y, which is not true for any value of y.\nTherefore, the answer cannot be C or E.\nSince the answer cannot be A, B, C, or E, it follows that the answer is D.",
-    "extraction_notes": "some options rendered as images in source PDF"
+    "image": "images/q-093.png"
   },
   {
     "number": 94,
@@ -1459,7 +1459,7 @@
     "correct_answer": "E",
     "category": "Algebra First-Degree Equations",
     "explanation": "Letting R and C, respectively, represent Ron’s and Cathy’s current salaries, it is given that\n. It follows that                  and                             .",
-    "extraction_notes": "some options rendered as images in source PDF"
+    "image": "images/q-096.png"
   },
   {
     "number": 97,
@@ -1505,7 +1505,7 @@
     "correct_answer": "C",
     "category": "Algebra Factoring",
     "explanation": "=                                      group\n=                                      factor\n=                                      factor\n= 3x2 – 4                              cancel since x ≠\nAlternatively, sometimes it is easier or quicker to test one-variable expressions for equality by\nsubstituting a convenient value for the variable and eliminating answer choices for which the\nvalue of the expression in that answer choice does not equal the value of the given\nexpression. For example, choose x = 0, since calculations for x = 0 are minimal. Then, as\nshown in the table below,                                                 , but                       and 3x + 4 =\n4, neither of which equals –4, so answer choices A and E can be eliminated. Another\nconvenient value to choose for x is 1. There is no need to evaluate answer choices A and E at 1\nsince they have already been eliminated. As shown, when                                                       , but\n, so answer choice B can be eliminated. A third convenient value for x\nis –1. There is no need to evaluate answer choices A, B, and E at –1 since they have already\nbeen eliminated. As shown, when                                                        , but 3x – 4 = –7 ≠ −1, so\nanswer choice D can be eliminated. Note that, if x = −1 had been chosen initially, A, B, D, and E\nwould have been eliminated immediately since                                                    ,\n, 3x – 4 = –7 ≠ –1, and 3x + 4 = 1 ≠ –1.\nx = 0 x = 1 x = –1\n–4      –1      –1\nA                               –8\nB                               –4\nC                               –4      –1      –1\n3x2 – 4\nD 3x – 4                        –4      –1      –7\nE\n3x + 4                       4",
-    "extraction_notes": "some options rendered as images in source PDF"
+    "image": "images/q-099.png"
   },
   {
     "number": 100,
@@ -1521,7 +1521,7 @@
     "correct_answer": "C",
     "category": "Algebra Second-Degree Equations",
     "explanation": "Given that x2 + bx + 5 = (x + c)2, since (x + c)2 = x2 + 2cx + c2, it follows that 5 = c2 and b = 2c.\nThe possible values of c are         and     , but since c is positive, c =    and                .",
-    "extraction_notes": "some options rendered as images in source PDF"
+    "image": "images/q-100.png"
   },
   {
     "number": 101,
@@ -1597,7 +1597,7 @@
     "correct_answer": "A",
     "category": "Algebra Formulas; Percents",
     "explanation": "We are given that B is 120% of F, so B = (120%)F, or B = 1.2F. Note that both B and F are\ngiven in pounds per square inch, so there are no unit conversions involved.",
-    "extraction_notes": "some options rendered as images in source PDF"
+    "image": "images/q-105.png"
   },
   {
     "number": 106,
@@ -1643,7 +1643,7 @@
     "correct_answer": "B",
     "category": "Algebra Inequalities",
     "explanation": "Because x and y are both positive, the maximum value of                             will occur when the value of\nis maximum and the value of              is minimum. The value of            is maximum when the value of x\nis minimum or when x = 3. The value of                 is minimum when the value of x is minimum (or\nwhen x = 3) and the value of y is maximum (or when y = 9). Thus, the maximum value of\nis   −     = 0.",
-    "extraction_notes": "some options rendered as images in source PDF"
+    "image": "images/q-108.png"
   },
   {
     "number": 109,
@@ -1689,7 +1689,7 @@
     "correct_answer": "B",
     "category": "Arithmetic Statistics",
     "explanation": "Let S denote the sum of the lengths, in minutes, of the 21 films in the original group. Since the\naverage length is t minutes, it follows that\nIf a 66-minute film is replaced by a 52-minute film, then the sum of the lengths of the 21 films\nin the resulting group is S − 66 + 52 = S − 14. Therefore, the average length of the resulting 21\nfilms is",
-    "extraction_notes": "some options rendered as images in source PDF"
+    "image": "images/q-111.png"
   },
   {
     "number": 112,
@@ -1720,7 +1720,7 @@
     "correct_answer": "D",
     "category": "Algebra Absolute Value",
     "explanation": "Squaring both sides of x = −|w| gives x2 = (−|w|)2, or x2 = |w|2 = w2.\nAlternatively, if (x, w) is equal to either of the pairs (−1, 1) or (−1, −1), then x = −|w| is true.\nHowever, each of the answer choices except x2 = w2 is false for at least one of these two pairs.",
-    "extraction_notes": "question stem may be incomplete (formula image)"
+    "image": "images/q-113.png"
   },
   {
     "number": 114,
@@ -1796,7 +1796,7 @@
     "correct_answer": "B",
     "category": "Arithmetic Properties of Numbers",
     "explanation": "Since there is only one correct answer, one method of solving the problem is to choose values\nfor m and v and determine which of the expressions gives the correct number for these\nvalues. For example, if m = 6 and v = 1, then there are 2 even integers less than 6 and greater\nthan 1, namely the even integers 2 and 4. As the table below shows,                                   is the only\nexpression given that equals 2.\n– 1 = 1.5\n=2\n= 2.5\nm–v–1\n=4\nm–v = 5\nTo solve this problem it is not necessary to show that                              always gives the correct\nnumber of even integers. However, one way this can be done is by the following method, first\nshown for a specific example and then shown in general. For the specific example, suppose v\n= 15 and m = 144. Then a list—call it the first list—of the even integers greater than v and less\nthan m is 16, 18, 20, …, 140, 142. Now subtract 14 (chosen so that the second list will begin\nwith 2) from each of the integers in the first list to form a second list, which has the same\nnumber of integers as the first list: 2, 4, 6, …, 128. Finally, divide each of the integers in the\nsecond list (all of which are even) by 2 to form a third list, which also has the same number of\nintegers as the first list: 1, 2, 3, …, 64. Since the number of integers in the third list is 64, it\nfollows that the number of integers in the first list is 64. For the general situation, the first list\nis the following list of even integers: v + 1, v + 3, v + 5, …, m – 4, m – 2. Now subtract the even\ninteger v – 1 from (i.e., add –v + 1 to) each of the integers in the first list to obtain the second\nlist: 2, 4, 6, …, m – v – 3, m – v – 1. (Note, for example, that m – 4 – (v – 1) = m – v – 3.) Finally,\ndivide each of the integers (all of which are even) in the second list by 2 to obtain the third\nlist: 1, 2, 3, …,               ,             . Since the number of integers in the third list is              ,\nit follows that the number of integers in the first list is                           .",
-    "extraction_notes": "some options rendered as images in source PDF"
+    "image": "images/q-118.png"
   },
   {
     "number": 119,
@@ -1857,7 +1857,7 @@
     "correct_answer": "B",
     "category": "Arithmetic Applied Problems",
     "explanation": "Consider the table below in which T represents the total number of students in the dormitory.\nSince        of the students are first-year students and the rest are second-year students, it\nfollows that       of the students are second-year students, and so the totals for the first-year\nand second-year columns are both 0.5T. Since                    of the first-year students have not declared a\nmajor, it follows that the middle entry in the first-year column is                    (0.5T) = 0.4T and the first\nentry in the first-year column is 0.5T − 0.4T = 0.1T. Since the fraction of second-year students\nwho have declared a major is 3 times the fraction of first-year students who have declared a\nmajor, it follows that the first entry in the second-year column is 3(0.1T) = 0.3T and the\nsecond entry in the second-year column is 0.5T − 0.3T = 0.2T. Thus, the fraction of students\nthat are second-year students who have not declared a major is\nFirst-year Second-year Total\nDeclared major             0.1T          0.3T              0.4T\nNot declared major 0.4T                  0.2T              0.6T\nTotal                      0.5T          0.5T              T",
-    "extraction_notes": "some options rendered as images in source PDF"
+    "image": "images/q-122.png"
   },
   {
     "number": 123,
@@ -1888,7 +1888,7 @@
     "correct_answer": "B",
     "category": "Algebra Applied Problems",
     "explanation": "Using average speed =                              , it follows that Jonah’s average speed for his entire 100-\nmile trip is           .",
-    "extraction_notes": "some options rendered as images in source PDF"
+    "image": "images/q-124.png"
   },
   {
     "number": 125,
@@ -1934,7 +1934,7 @@
     "correct_answer": "B",
     "category": "Arithmetic Percents",
     "explanation": "Given that          = x%, and writing x% as              , it follows that                  . Multiplying both sides\nby 100 gives                                                   .",
-    "extraction_notes": "question stem may be incomplete (formula image)"
+    "image": "images/q-127.png"
   },
   {
     "number": 128,
@@ -1995,7 +1995,7 @@
     "correct_answer": "D",
     "category": "Arithmetic Estimation",
     "explanation": "",
-    "extraction_notes": "explanation body rendered as images in source PDF"
+    "image": "images/q-131.png"
   },
   {
     "number": 132,
@@ -2071,7 +2071,7 @@
     "correct_answer": "D",
     "category": "Arithmetic Measurement Conversion; Rate Problem",
     "explanation": "We are given that 1,200 milliliters leak in 1 hour, or 3,600 seconds. Because the leaking is at a\nconstant rate, it takes               as long for 1 milliliter to leak, and so 1 milliliter leaks in",
-    "extraction_notes": "some options rendered as images in source PDF"
+    "image": "images/q-136.png"
   },
   {
     "number": 137,
@@ -2117,7 +2117,7 @@
     "correct_answer": "D",
     "category": "Algebra Exponents; Simplifying Algebraic Expressions",
     "explanation": "Using the property                     ,                                  . Also, since\n(x + y)2     (x    y)2 = (x2 + 2xy + y2)         (x2    2xy + y2)\n= 4xy\nand xy = 1, it follows that",
-    "extraction_notes": "question stem may be incomplete (formula image)"
+    "image": "images/q-139.png"
   },
   {
     "number": 140,
@@ -2133,7 +2133,7 @@
     "correct_answer": "A",
     "category": "Arithmetic Probability; Sets (Venn diagrams)",
     "explanation": "Since 17 members can use the meat-cutting machine and 15 members can use both machines,\n17 − 15 = 2 members can use only the meat-cutting machine. Similarly, since 18 members can\nuse the bread-slicing machine and 15 members can use both machines, 18 − 15 = 3 members\ncan use only the bread-slicing machine. The Venn diagram below shows these values, where x\nis the number of members who cannot use either machine.\nSince there is a total of 20 members, it follows that 2 + 15 + 3 + x = 20, or x = 0. Therefore, the\nprobability that the member chosen cannot use either machine is",
-    "extraction_notes": "some options rendered as images in source PDF"
+    "image": "images/q-140.png"
   },
   {
     "number": 141,
@@ -2164,7 +2164,7 @@
     "correct_answer": "B",
     "category": "Algebra Functions",
     "explanation": "Therefore,                        .\nAlternatively, evaluate all of the expressions for an appropriate value of x, such as x = 2.\n=              =             =\nf(x)       =     f(2)     =             =\nf(−x)      = f(−2) =                    =\n=              =             =\n=              =             =\n=              =             =",
-    "extraction_notes": "some options rendered as images in source PDF"
+    "image": "images/q-142.png"
   },
   {
     "number": 143,
@@ -2225,7 +2225,7 @@
     "correct_answer": "E",
     "category": "Arithmetic Probability",
     "explanation": "Because the 5 flips of the coin are independent of each other, the probability of the coin\nlanding heads up on the first 3 flips and tails up (i.e., not heads up) on the last 2 flips is\nP(H) × P(H) × P(H) × P(T) × P(T),\nwhere P(H) and P(T) are the probabilities, respectively, that a single flip of the coin lands\nheads up and tails up. Since P(T) = 1 − P(H) and            , it follows that            .\nTherefore, the requested probability is                                              .",
-    "extraction_notes": "some options rendered as images in source PDF"
+    "image": "images/q-146.png"
   },
   {
     "number": 147,
@@ -2256,7 +2256,7 @@
     "correct_answer": "D",
     "category": "Algebra First-Degree Equations",
     "explanation": "Let x represent the greater of the two numbers that differ by 2. Then, x – 2 represents the\nlesser of the two numbers. The two numbers sum to S, so x + (x – 2) = S. It follows that 2x – 2\n= S, or 2x = S + 2, or x = + 1.",
-    "extraction_notes": "some options rendered as images in source PDF"
+    "image": "images/q-148.png"
   },
   {
     "number": 149,
@@ -2317,7 +2317,7 @@
     "correct_answer": "C",
     "category": "Arithmetic Properties of Numbers",
     "explanation": "The factors of 28 are 1, 2, 4, 7, 14, and 28. Therefore, the sum of the reciprocals of the factors\nof 28 is                                        =",
-    "extraction_notes": "some options rendered as images in source PDF"
+    "image": "images/q-152.png"
   },
   {
     "number": 153,
@@ -2378,7 +2378,7 @@
     "correct_answer": "C",
     "category": "Arithmetic Percents",
     "explanation": "Since the number of passengers on the ship is immaterial, let the number of passengers on\nthe ship be 100 for convenience. Let x be the number of passengers that held round-trip\ntickets. Then, since 20 percent of the passengers held a round-trip ticket and took their cars\naboard the ship, 0.20(100) = 20 passengers held round-trip tickets and took their cars aboard\nthe ship. The remaining passengers with round-trip tickets did not take their cars aboard, and\nthey represent 0.6x (that is, 60 percent of the passengers with round-trip tickets). Thus 0.6x +\n20 = x, from which it follows that 20 = 0.4x, and so x = 50. The percent of passengers with\nround-trip tickets is, then,                      .",
-    "extraction_notes": "some options rendered as images in source PDF"
+    "image": "images/q-156.png"
   },
   {
     "number": 157,
@@ -2574,7 +2574,7 @@
     "correct_answer": "D",
     "category": "Arithmetic; Algebra Probability; Concepts of Sets",
     "explanation": "By the principle of multiplication, since there are 4 elements in the first set and 3 elements in\nthe second set, there are (4)(3) = 12 possible products of xy, where x is chosen from the first\nset and y is chosen from the second set. These products will be even EXCEPT when both x and\ny are odd. Since there are 2 odd numbers in the first set and 2 odd numbers in the second set,\nthere are (2)(2) = 4 products of x and y that are odd. This means that the remaining 12 − 4 =\n8 products are even. Thus, the probability that xy is even is",
-    "extraction_notes": "some options rendered as images in source PDF"
+    "image": "images/q-169.png"
   },
   {
     "number": 170,
@@ -2695,7 +2695,7 @@
     "correct_answer": "A",
     "category": "Arithmetic Probability",
     "explanation": "Representing the birth order of the 4 children as a sequence of 4 letters, each of which is B\nfor boy and G for girl, there are 2 possibilities (B or G) for the first letter, 2 for the second\nletter, 2 for the third letter, and 2 for the fourth letter, making a total of          sequences.\nThe table below categorizes some of these 16 sequences.\n# of # of                                            # of\nboys girls              Sequences                 sequences\n0      4    GGGG                                      1\n1      3    BGGG, GBGG, GGBG, GGGB                    4\n3      1    GBBB, BGBB, BBGB, BBBG                    4\n4      0    BBBB                                      1\nThe table accounts for 1 + 4 + 4 + 1 = 10 sequences. The other 6 sequences will have 2Bs and\n2Gs. Therefore the probability that the couple will have exactly 2 boys and 2 girls is                     .\nFor the mathematically inclined, if it is assumed that a couple has a fixed number of children,\nthat the probability of having a girl each time is p, and that the sex of each child is\nindependent of the sex of the other children, then the number of girls, x, born to a couple with\nn children is a random variable having the binomial probability distribution. The probability of\nhaving exactly x girls born to a couple with n children is given by the formula\n. For the problem at hand, it is given that each child is equally likely to be a boy or a girl, and\nso          . Thus, the probability of having exactly 2 girls born to a couple with 4 children is",
-    "extraction_notes": "some options rendered as images in source PDF"
+    "image": "images/q-177.png"
   },
   {
     "number": 178,
@@ -2771,7 +2771,7 @@
     "correct_answer": "B",
     "category": "Arithmetic Properties of Numbers",
     "explanation": "Since the positive integer x is a factor of y, then y = kx for some positive integer k. Since x is a\nmultiple of the positive integer z, then x = mz for some positive integer m.\nSubstitute these expressions for x and/or y into each answer choice to find the one\nexpression that is NOT necessarily an integer.\nA.                                               , which MUST be an integer\nB.                                               , which NEED NOT be an integer\nBecause only one of the five expressions need not be an integer, the expressions given in C, D,\nand E need not be tested. However, for completeness,\nC.                                                                            , which MUST be an integer\nD.                         , which MUST be an integer\nE.                         , which MUST be an integer",
-    "extraction_notes": "some options rendered as images in source PDF"
+    "image": "images/q-182.png"
   },
   {
     "number": 183,
@@ -2892,7 +2892,7 @@
     "correct_answer": "B",
     "category": "Arithmetic Operations on Rational Numbers",
     "explanation": "Work the problem:\nConsecutive Minutes Units of Power\nMachine   Machine Is Off      When On\nA                   17                      15\nB                   14                      18\nC                   11                      12",
-    "extraction_notes": "question stem may be incomplete (formula image)"
+    "image": "images/q-190.png"
   },
   {
     "number": 191,
@@ -3043,7 +3043,7 @@
     "correct_answer": "E",
     "category": "Algebra Work Problem",
     "explanation": "Let tA, tB, and tC be the number of hours, respectively, for Pumps A, B, and C operating alone\nto fill the tank, and let t be the number of hours for Pumps A, B, and C operating\nsimultaneously to fill the tank.\nSince Pumps A and B, operating simultaneously, can fill the tank in                         hours, it follows that\n, and similarly for the other two pairs of pumps we are given information\nabout.\n+   =\n+    =\n+   =\nAdding these 3 equations gives                                                       , or                     . Since\n, it follows that          , or t = 1.",
-    "extraction_notes": "some options rendered as images in source PDF"
+    "image": "images/q-200.png"
   },
   {
     "number": 201,
@@ -3059,7 +3059,7 @@
     "correct_answer": "D",
     "category": "Algebra Simplifying Algebraic Expressions",
     "explanation": "(−2n)−2 + (2−n)2               given\n=\nuse\n=\n−2n = (−1)(2n) and use (ab)c = acbc\n=\n(−1)2 = 1 and use\n=                                  adding fractions with a common denominator\n=\nuse (ab)c = abc\n= 1 – 2n\n2                                 2 = 21 and use\n= –2n + 1                          1 – 2n = –2n + 1\n2",
-    "extraction_notes": "question stem may be incomplete (formula image)"
+    "image": "images/q-201.png"
   },
   {
     "number": 202,
@@ -3075,7 +3075,7 @@
     "correct_answer": "C",
     "category": "Arithmetic Operations on Radical Expressions",
     "explanation": "=                             use\n=                             use (ab)c = acbc\n=                                                  and\n=                             reduce\n=                             multiply by 1\n=\n=                             reduce",
-    "extraction_notes": "some options rendered as images in source PDF"
+    "image": "images/q-202.png"
   },
   {
     "number": 203,

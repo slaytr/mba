@@ -6,7 +6,7 @@ const SESSION_SIZE = 10;
 const state = {
   questions: [],
   progress: loadProgress(),
-  filters: { difficulties: new Set(["Easy", "Medium", "Hard"]), skipBroken: true, prioritizeWrong: true },
+  filters: { difficulties: new Set(["Easy", "Medium", "Hard"]), skipBroken: false, prioritizeWrong: true },
   session: null,
   currentIdx: 0,
   answered: false,
@@ -187,26 +187,48 @@ function renderQuestion() {
   document.getElementById("q-category").textContent = q.category || "—";
 
   const notice = document.getElementById("q-notice");
-  if (q.extraction_notes) {
+  if (q.extraction_notes && !q.image) {
     notice.textContent = `⚠ ${q.extraction_notes}`;
     notice.classList.remove("hidden");
   } else {
     notice.classList.add("hidden");
   }
 
-  document.getElementById("q-text").textContent = q.question || "(question missing)";
+  // For questions whose text/options were lost to image rendering, the PDF
+  // crop is the source of truth — hide the text so we don't show two copies.
+  const textEl = document.getElementById("q-text");
+  const imgWrap = document.getElementById("q-image-wrap");
+  const imgEl = document.getElementById("q-image");
+  if (q.image) {
+    textEl.classList.add("hidden");
+    imgEl.src = q.image;
+    imgWrap.classList.remove("hidden");
+  } else {
+    textEl.classList.remove("hidden");
+    textEl.textContent = q.question || "(question missing)";
+    imgWrap.classList.add("hidden");
+    imgEl.removeAttribute("src");
+  }
 
   const optsBox = document.getElementById("q-options");
   optsBox.innerHTML = "";
   const letters = ["A", "B", "C", "D", "E"];
+  // If the question shows the options in its image, render compact letter-only
+  // buttons in a row. Otherwise render full-width text option buttons.
+  const compact = !!q.image;
+  optsBox.classList.toggle("options-compact", compact);
   for (const L of letters) {
-    const txt = q.options[L] ?? "(empty)";
+    const txt = q.options[L] ?? "";
     const btn = document.createElement("button");
     btn.className = "option";
     btn.type = "button";
     btn.dataset.letter = L;
-    btn.innerHTML = `<span class="option-letter">${L}</span><span class="option-text"></span>`;
-    btn.querySelector(".option-text").textContent = txt;
+    if (compact) {
+      btn.innerHTML = `<span class="option-letter">${L}</span>`;
+    } else {
+      btn.innerHTML = `<span class="option-letter">${L}</span><span class="option-text"></span>`;
+      btn.querySelector(".option-text").textContent = txt || "(see image)";
+    }
     btn.addEventListener("click", () => onAnswer(L));
     optsBox.appendChild(btn);
   }

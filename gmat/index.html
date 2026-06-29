@@ -44,8 +44,8 @@
         </div>
 
         <label class="row">
-          <input type="checkbox" id="skip-broken" checked />
-          <span>Skip questions with image-only content</span>
+          <input type="checkbox" id="skip-broken" />
+          <span>Skip questions that need image fallback</span>
         </label>
 
         <label class="row">
@@ -95,6 +95,9 @@
 
         <div id="q-notice" class="notice hidden"></div>
         <div id="q-text" class="q-text"></div>
+        <div id="q-image-wrap" class="q-image-wrap hidden">
+          <img id="q-image" alt="Question rendered from source PDF" />
+        </div>
 
         <div id="q-options" class="options"></div>
 
