@@ -1,0 +1,4 @@
+.DS_Store
+
+# Source PDFs — large copyrighted content, kept locally only
+gmat/*.pdf

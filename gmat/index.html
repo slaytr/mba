@@ -1,0 +1,131 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover" />
+  <meta name="theme-color" content="#0f172a" />
+  <title>GMAT Quant Quiz</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <div id="app">
+    <!-- Home screen -->
+    <section id="home" class="screen">
+      <header class="title-bar">
+        <h1>GMAT Quant Review</h1>
+        <button class="icon-btn" id="reset-btn" title="Reset progress" aria-label="Reset progress">↺</button>
+      </header>
+
+      <div class="stats-card">
+        <div class="stat">
+          <div class="stat-value" id="stat-attempted">0</div>
+          <div class="stat-label">Attempted</div>
+        </div>
+        <div class="stat">
+          <div class="stat-value" id="stat-correct-pct">—</div>
+          <div class="stat-label">Correct</div>
+        </div>
+        <div class="stat">
+          <div class="stat-value" id="stat-streak">0</div>
+          <div class="stat-label">Streak</div>
+        </div>
+        <div class="stat">
+          <div class="stat-value" id="stat-remaining">203</div>
+          <div class="stat-label">Remaining</div>
+        </div>
+      </div>
+
+      <div class="filters">
+        <h2>Filters</h2>
+        <div class="chip-row" id="difficulty-chips">
+          <button class="chip" data-diff="Easy">Easy</button>
+          <button class="chip" data-diff="Medium">Medium</button>
+          <button class="chip" data-diff="Hard">Hard</button>
+        </div>
+
+        <label class="row">
+          <input type="checkbox" id="skip-broken" checked />
+          <span>Skip questions with image-only content</span>
+        </label>
+
+        <label class="row">
+          <input type="checkbox" id="prioritize-wrong" checked />
+          <span>Prioritize previously wrong</span>
+        </label>
+      </div>
+
+      <div class="actions">
+        <button class="primary" id="start-btn">Start quiz</button>
+        <button class="ghost" id="review-wrong-btn">Review wrong only</button>
+      </div>
+
+      <details class="breakdown">
+        <summary>By difficulty</summary>
+        <div id="diff-breakdown"></div>
+      </details>
+
+      <details class="breakdown">
+        <summary>By category</summary>
+        <div id="cat-breakdown"></div>
+      </details>
+    </section>
+
+    <!-- Quiz screen -->
+    <section id="quiz" class="screen hidden">
+      <header class="title-bar">
+        <button class="icon-btn" id="back-btn" aria-label="Back">←</button>
+        <div class="progress-meta">
+          <span id="q-progress">0 / 0</span>
+          <span class="dot">·</span>
+          <span id="q-session-correct">0 correct</span>
+        </div>
+        <div class="placeholder"></div>
+      </header>
+
+      <div class="progress-bar">
+        <div class="progress-bar-fill" id="progress-bar-fill"></div>
+      </div>
+
+      <main class="question-area" id="question-area">
+        <div class="qmeta">
+          <span class="chip-static" id="q-number">#1</span>
+          <span class="chip-static" id="q-difficulty">Easy</span>
+          <span class="chip-static" id="q-category">Arithmetic</span>
+        </div>
+
+        <div id="q-notice" class="notice hidden"></div>
+        <div id="q-text" class="q-text"></div>
+
+        <div id="q-options" class="options"></div>
+
+        <div id="q-feedback" class="feedback hidden">
+          <div id="q-feedback-result" class="feedback-result"></div>
+          <details class="explanation" open>
+            <summary>Explanation</summary>
+            <div id="q-explanation" class="explanation-body"></div>
+          </details>
+        </div>
+
+        <div class="quiz-actions">
+          <button class="ghost" id="skip-btn">Skip</button>
+          <button class="primary" id="next-btn" disabled>Next →</button>
+        </div>
+      </main>
+    </section>
+
+    <!-- Session done -->
+    <section id="done" class="screen hidden">
+      <div class="done-card">
+        <h1>Session complete</h1>
+        <p id="done-summary"></p>
+        <div class="actions">
+          <button class="primary" id="done-home-btn">Back to home</button>
+          <button class="ghost" id="done-again-btn">New session</button>
+        </div>
+      </div>
+    </section>
+  </div>
+
+  <script src="app.js"></script>
+</body>
+</html>
