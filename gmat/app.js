@@ -2,6 +2,8 @@
 
 const STORAGE_KEY = "gmat-quant-quiz-v1";
 const SESSION_SIZE = 10;
+// Bumped whenever images are regenerated so browsers fetch fresh crops.
+const IMAGE_VERSION = "4";
 
 const state = {
   questions: [],
@@ -198,7 +200,7 @@ function renderQuestion() {
   const imgEl = document.getElementById("q-image");
   if (q.image) {
     textEl.classList.add("hidden");
-    imgEl.src = q.image;
+    imgEl.src = `${q.image}?v=${IMAGE_VERSION}`;
     imgWrap.classList.remove("hidden");
   } else {
     textEl.classList.remove("hidden");
